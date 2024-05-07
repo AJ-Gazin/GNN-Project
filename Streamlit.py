@@ -15,7 +15,7 @@ from torch_geometric.nn import SAGEConv, to_hetero, Linear
 from dotenv import load_dotenv
 
 
-import viz_utils
+import Utility.viz_utils as viz_utils
 import model_def
 
 load_dotenv() #load environment variables from .env file
